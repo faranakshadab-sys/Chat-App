@@ -108,7 +108,7 @@ jobs:
           name: web-build
           path: web
 
-      - name: Create or update release (tag: latest)
+      - name: Create or update release
         uses: softprops/action-gh-release@v1
         with:
           tag_name: latest
